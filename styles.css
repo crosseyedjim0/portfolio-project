@@ -1,0 +1,15 @@
+#gallery {
+  background: silver; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(lightgrey, grey, black); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(lightgrey, grey, black); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(lightgrey, grey, black); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(lightgrey, grey, black);
+  color: silver;
+  padding-bottom: 45px;
+}
+
+#gallery img {
+  border: 3px solid silver;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

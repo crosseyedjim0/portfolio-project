@@ -5,6 +5,8 @@
   background: -moz-radial-gradient(lightgrey, grey, black); /* For Firefox 3.6 to 15 */
   background: radial-gradient(lightgrey, grey, black);
   color: silver;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
   padding-bottom: 45px;
 }
 

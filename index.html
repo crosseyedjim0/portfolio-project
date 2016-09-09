@@ -5,27 +5,28 @@
   <head>
     <title>Spike Spiegel Portfolio</title>
       <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-      <link type="text/css" rel="stylesheet" href="styles.css"/>
+      <link type="text/css" rel="stylesheet" href="styles/styles.css"/>
+      <link type-"text.css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,700"/>
   </head>
 
 <!-- This is the Intro section -->
 
   <body>
-    <div id="intro" class="container-fluid">
+    <div id="intro" class="container-fluid hero landscape">
       <h1>Spike Spiegel</h1>
       <h5>Freelance Photographer</h5>
-      <a href="#gallery">Gallery</a>
+      <a href="#gallery"><button type="button" class="cta">See More</button></a>
     </div>
 
 <!-- This is the About section -->
 
-    <div id="about" class="container">
+    <div id="about" class="container hero">
       <h2>About Me</h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 left-col">
             <h2>I'm a self-taught photographer with a passion for travel and design.</h2>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 right-col">
             <h5>I was born in Cape Town, South Africa and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment. Join me on my journey!</h5>
           </div>
         </div>
@@ -34,49 +35,49 @@
 <!-- This is the Gallery section -->
 
     <div id="gallery">
-      <div class="container-fluid">
+      <div class="container-fluid hero">
         <h1>Gallery</h1>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <a href="images/gallery/gallery-01.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-01.jpg" height="300px" width="350px" alt="gallery image 1"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-01.jpg" alt="gallery image 1"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-06.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-06.jpg" height="300px" width="350px" alt="gallery image 6"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-06.jpg" alt="gallery image 6"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-03.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-03.jpg" height="300px" width="350px" alt="gallery image 3"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-03.jpg" alt="gallery image 3"/></a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
               <a href="images/gallery/gallery-04.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-04.jpg" height="300px" width="350px" alt="gallery image 4"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-04.jpg" alt="gallery image 4"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-05.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-05.jpg" height="300px" width="350px" alt="gallery image 5"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-05.jpg" alt="gallery image 5"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-02.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-02.jpg" height="300px" width="350px" alt="gallery image 2"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-02.jpg" alt="gallery image 2"/></a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
               <a href="images/gallery/gallery-07.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-07.jpg" height="300px" width="350px" alt="gallery image 7"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-07.jpg" alt="gallery image 7"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-08.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-08.jpg" height="300px" width="350px" alt="gallery image 8"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-08.jpg" alt="gallery image 8"/></a>
             </div>
             <div class="col-md-4">
               <a href="images/gallery/gallery-09.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-09.jpg" height="300px" width="350px" alt="gallery image 9"/></a>
+              <img class="img-responsive" src="images/gallery/gallery-09.jpg" alt="gallery image 9"/></a>
             </div>
           </div>
         </div>
@@ -85,13 +86,14 @@
 
 <!-- Bridge Section -->
 
-  <div class="bridge container-fluid">
-    <div id="contact">
-      <h2>Contact Me</h2>
-      <p>"I'm available for freelance - from events like weddings to documenting your next adventure, let's chat!"</p>
-      <a href="mailto:mail@example.com">Send me an email!</a>
-    </div>
+  <div class="bridge container-fluid hero"></div>
+
+  <div id="contact" class="container-fluid hero contact">
+    <h2>Contact Me</h2>
+    <p>"I'm available for freelance - from events like weddings to documenting your next adventure, let's chat!"</p>
+    <a href="mailto:mail@example.com"><button type="button" class="cta">Contact</button></a>
   </div>
+
 
 
 <!-- A section of social media links -->
@@ -99,19 +101,19 @@
     <div id="social">
       <div class="container">
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-3">
             <a href="http://www.twitter.com">
-              <img src="images/icons/facebook.svg" height="20px" width="20px" alt="facebook icon"/>
+              <img src="images/icons/facebook.svg" alt="facebook icon"/>
             </a>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-3">
             <a href="http://www.instagram.com">
-              <img src="images/icons/instagram-black.svg" height="20px" width="20px" alt="instagram icon"/>
+              <img src="images/icons/instagram-black.svg" alt="instagram icon"/>
             </a>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-3">
             <a href="http://www.medium.com">
-              <img src="images/icons/medium-alt.svg" height="20px" width="20px" alt="medium icon"/>
+              <img src="images/icons/medium-alt.svg" alt="medium icon"/>
             </a>
           </div>
         </div>
@@ -127,17 +129,17 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-4">
             <div class="footer-item">
               <a href="#about">About</a>
             </div>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-4">
             <div class="footer-item">
               <a href="#gallery">Gallery</a>
             </div>
           </div>
-          <div class="col-md-1">
+          <div class="col-md-4">
             <div class="footer-item">
               <a href="#contact">Contact</a>
             </div>

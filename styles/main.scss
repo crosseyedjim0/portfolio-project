@@ -76,6 +76,9 @@ $gallery-background: silver;
       padding: 20px;
       text-transform: uppercase;
       text-align: right;
+      text-shadow: 2px 2px 3px $gradient-start;
+      display: flex;
+      justify-content: flex-end;
         h2 {
           margin-top: 0px;
           margin-bottom: 0px;

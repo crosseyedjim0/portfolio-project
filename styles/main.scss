@@ -117,6 +117,16 @@ $gallery-background: silver;
     }
 }
 
+div.hr {
+  height: 23px;
+  background: #fff url("../images/separator.jpg") repeat scroll center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+div.hr hr {
+  display: none;
+}
+
 .bridge {
   background-image: url("../images/bridge/full-width.jpg");
   width: 100%;

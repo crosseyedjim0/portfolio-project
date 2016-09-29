@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 $site-BLUE: #00CFFF;
 $site-BLACK: #000000;
@@ -17,7 +17,7 @@ $gallery-background: silver;
 }
 
 .hero {
-  font-family: "Roboto", serif;
+  font-style: 'Roboto', serif;
   text-align: center;
   min-height: 800px;
   background-size: cover;

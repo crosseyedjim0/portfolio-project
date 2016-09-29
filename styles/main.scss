@@ -17,11 +17,11 @@ $gallery-background: silver;
 }
 
 .hero {
-  font-style: 'Roboto', serif;
   text-align: center;
   min-height: 800px;
   background-size: cover;
   padding-bottom: 50px;
+  font-family: 'Roboto', serif;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -78,13 +78,15 @@ $gallery-background: silver;
       text-align: right;
       text-shadow: 2px 2px 3px $gradient-start;
       display: flex;
-      justify-content: flex-end;
+
         h2 {
           margin-top: 0px;
           margin-bottom: 0px;
           font-size: 60px;
           font-weight: 700;
           line-height: 55px;
+          align-items: center;
+          justify-content: flex-end;
     }
   }
 
@@ -92,10 +94,12 @@ $gallery-background: silver;
       padding: 20px;
       text-align: left;
       display: flex;
-      justify-content: flex-start;
+
         h5 {
           font-size: 24px;
           line-height: 30px;
+          align-items: center;
+          justify-content: flex-start;
     }
   }
 

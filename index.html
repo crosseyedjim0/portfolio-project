@@ -4,10 +4,17 @@
 
   <head>
     <title>Spike Spiegel Portfolio</title>
+      <!-- Bootstrap Link -->
       <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+      <!-- SASS/css compiled style sheet -->
       <link type="text/css" rel="stylesheet" href="styles/main.min.css"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+      <!-- The lightbox css style sheet -->
+      <link type="text/css" href="styles/lightbox.css" rel="stylesheet"/>
+      <!-- This script loads jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <!-- This is the document javascript -->
       <script src="scripts/app.js"></script>
   </head>
 
@@ -57,6 +64,7 @@
     </div>
 
 <!-- This is the Gallery section -->
+<div class="hr"><hr /></div>
 
     <div id="gallery">
       <div class="container-fluid hero">
@@ -64,43 +72,43 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <a href="images/gallery/gallery-01.jpg" target="_blank">
+              <a href="images/gallery/gallery-01.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-01.jpg" alt="gallery image 1"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-06.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-06.jpg" alt="gallery image 6"/></a>
+              <a href="images/gallery/gallery-06.jpg" data-lightbox="gallery">
+              <img class="img-responsive" src="images/gallery/gallery-06.jpg" alt="gallery image 2"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-03.jpg" target="_blank">
+              <a href="images/gallery/gallery-03.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-03.jpg" alt="gallery image 3"/></a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <a href="images/gallery/gallery-04.jpg" target="_blank">
+              <a href="images/gallery/gallery-04.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-04.jpg" alt="gallery image 4"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-05.jpg" target="_blank">
+              <a href="images/gallery/gallery-05.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-05.jpg" alt="gallery image 5"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-02.jpg" target="_blank">
-              <img class="img-responsive" src="images/gallery/gallery-02.jpg" alt="gallery image 2"/></a>
+              <a href="images/gallery/gallery-02.jpg" data-lightbox="gallery">
+              <img class="img-responsive" src="images/gallery/gallery-02.jpg" alt="gallery image 6"/></a>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <a href="images/gallery/gallery-07.jpg" target="_blank">
+              <a href="images/gallery/gallery-07.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-07.jpg" alt="gallery image 7"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-08.jpg" target="_blank">
+              <a href="images/gallery/gallery-08.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-08.jpg" alt="gallery image 8"/></a>
             </div>
             <div class="col-md-4">
-              <a href="images/gallery/gallery-09.jpg" target="_blank">
+              <a href="images/gallery/gallery-09.jpg" data-lightbox="gallery">
               <img class="img-responsive" src="images/gallery/gallery-09.jpg" alt="gallery image 9"/></a>
             </div>
           </div>
@@ -117,6 +125,7 @@
   <div class="bridge container-fluid hero"></div>
 
 <!-- contact information section -->
+<div class="hr"><hr /></div>
 
   <div id="contact" class="container-fluid hero contact">
     <h2>Contact Me</h2>
@@ -164,6 +173,9 @@
       </div>
     </div>
 
+
+<!-- This script loads lightbox javascript -->
+<script src="scripts/lightbox.js"></script>
 
   </body>
 </html>

@@ -7,10 +7,11 @@ function init() {
       $(".sidebar-wrapper").toggleClass('open');
     });
   });
+}
 
-  function getWeather() {
+function getWeather() {
   $.ajax({
-    url : "http://api.wunderground.com/api/<becc5e5a09bfb082>/geolookup/conditions/q/<95476>.json",
+    url : "http://api.wunderground.com/api/becc5e5a09bfb082/geolookup/conditions/q/95476.json",
     dataType : "jsonp",
     success : function(response) {
       var conditions = response.current_observation.weather;
@@ -27,9 +28,11 @@ function getTimeOfDay() {
 
   if(hours > 17) {
     timeOfDay = 'night';
-  } else if (hours > 12) {
+  }
+  else if (hours > 12) {
     timeOfDay = 'afternoon';
-  } else {
+  }
+  else {
     timeOfDay = 'morning';
   }
 
@@ -37,15 +40,16 @@ function getTimeOfDay() {
 }
 
 function loadImage(conditions) {
-  var imageSRC = 'img/weather/hero-'
+  var imageSRC = 'images/weather/hero-';
   var validConditions = ["clear", "cloudy", "rain", "snow"];
   var timeOfDay = getTimeOfDay();
   conditions = conditions.toLowerCase();
 
-  for (var i = 0; i<validConditions.length; i++) {
+  for (var i = 0; i < validConditions.length; i++) {
     if (conditions === validConditions[i]) {
       break;
-    } else {
+    }
+    else {
       conditions = 'cloudy';
     }
   }
@@ -53,6 +57,5 @@ function loadImage(conditions) {
   imageSRC = imageSRC + conditions + '-' + timeOfDay + '.jpg';
   $('#intro').css('background-image', 'url('+ imageSRC + ')');
 }
-}
-
+getWeather();
 init();

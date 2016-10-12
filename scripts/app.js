@@ -31,7 +31,7 @@ function getTimeOfDay() {
   }
   else if (hours > 12) {
     timeOfDay = 'afternoon';
-  }
+}
   else {
     timeOfDay = 'morning';
   }
